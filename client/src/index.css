@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family:"Assistant-Regular" ;
+  src:local("Assistant-Regular"), url("./asset/Fonts/Assistant-Regular.ttf") format('truetype');
+  font-weight:normal;
+}
+
+@font-face {
+  font-family:"Assistant" ;
+  src:local("Assistant-SemiBold"), url("./asset/Fonts/Assistant-SemiBold.ttf") format('truetype');
+  font-weight:bolder;
+}
+
+
+@font-face {
+  font-family:"mikhmoret" ;
+  src:local("mikhmoret-rounded-regular-aaa"), url("./asset/Fonts/mikhmoret-rounded-regular-aaa.otf") format('opentype');
+  font-weight:normal;
+}
+
+@font-face {
+  font-family:"mixtape" ;
+  src:local("mixtape-regular-aaa.otf"), url("./asset/Fonts/mixtape-regular-aaa.otf") format('opentype');
+  font-weight:normal;
+}
+
+
+@font-face {
+  font-family:"mixtape-bold" ;
+  src:local("mixtape-bold-aaa.otf"), url("./asset/Fonts/mixtape-bold-aaa.otf") format('opentype');
+  font-weight:bold;
+}
+
+
+
+
+@font-face {
+  font-family:"Assistant-Bold" ;
+  src:local("Assistant-Bold"), url("./asset/Fonts/Assistant-Bold.ttf") format('truetype');
+  font-weight:bold;
+}
+
+@font-face {
+  font-family:"Assistant-Light" ;
+  src:local("Assistant-Light"), url("./asset/Fonts/Assistant-Light.ttf") format('truetype');
+  font-weight:lighter;
+}
+
+
+@font-face {
+  font-family:"VarelaRound-Regular" ;
+  src:local("VarelaRound-Regular"), url("./asset/Fonts/VarelaRound-Regular.ttf") format('truetype');
+  font-weight:normal;
+}
+
+@font-face {
+  font-family:"JimboryRounded" ;
+  src:local("FtJimboryRounded-1.01-Bold"), url("./asset/Fonts/FtJimboryRounded-1.01-Bold.otf") format('opentype');
+  font-weight:normal;
+}
+

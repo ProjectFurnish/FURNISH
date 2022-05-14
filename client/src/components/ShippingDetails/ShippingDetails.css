@@ -1,0 +1,151 @@
+.ShippingDetails {
+  direction: rtl;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 490px;
+  background-color: rgba(255, 255, 255, 0.623);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px;
+  padding: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.ShippingDetails .btn1 {
+  background-color: #abb663;
+  color: #f6f3ee;
+  border: 1px solid #abb663;
+  border: none;
+  border-radius: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-top: 25px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.ShippingDetails .btn1:hover {
+  background-color: #c0cc70;
+  color: #f6f3ee;
+  border: 1px solid #c0cc70;
+}
+
+.ShippingDetails .btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.1s;
+}
+
+.ShippingDetails  .btn1 span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+}
+
+.ShippingDetails .btn1:hover span {
+  padding-left: 10px;
+}
+
+.ShippingDetails .btn1:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+.ShippingDetails .form {
+  width: 420px;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.header{
+  text-align: center;
+}
+
+.ShippingDetails .container-check {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  padding-right: 35px;
+  margin-bottom: 3.5%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.ShippingDetails .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.ShippingDetails .container-check{
+  margin-top: 3%;
+}
+
+/* Create a custom checkbox */
+.ShippingDetails .checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(216, 215, 215);
+}
+
+/* On mouse-over, add a grey background color */
+.ShippingDetails .container-check:hover input ~ .checkmark {
+  background-color: #d2d6b88f;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ShippingDetails .container-check input:checked ~ .checkmark {
+  background-color: #c6cf96;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.ShippingDetails .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.ShippingDetails .container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.ShippingDetails .container-check .checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

@@ -1,0 +1,53 @@
+.product-all {
+  margin: 1%;
+  margin-bottom: 1% !important;
+  float: right;
+}
+
+.button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 9px !important;
+}
+.product-all button {
+  background-color: #abb663;
+  color: #f6f3ee;
+  border: 1px solid #abb663;
+  border-radius: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 4px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.product-all button:hover {
+  background-color: #c0cc70;
+  color: #f6f3ee;
+  border: 1px solid #c0cc70;
+}
+
+.trash-icon {
+  font-size: 18px;
+  padding: 5px;
+  color: #a63348;
+  cursor: pointer;
+}
+
+.trash-icon:hover {
+  color: #abb663;
+}
+
+.trash-icon-container {
+  margin: 5px;
+  text-align: left;
+}
+
+.product-all h6{
+  position: absolute;
+}

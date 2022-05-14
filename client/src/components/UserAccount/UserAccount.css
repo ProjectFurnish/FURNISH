@@ -1,0 +1,75 @@
+.userAccount p ,.userAccountPers p {
+  font-size: 14px;
+  padding: 1px !important;
+  margin-bottom: 2px !important;
+  color: #400414;
+}
+
+
+.containerU {
+  text-align: right;
+  direction: rtl;
+}
+
+.containerUPers{
+  text-align: right;
+  direction: rtl;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userAccountPers{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userAccountPers h3{
+  text-align: center;
+
+}
+.userAccount p b ,.userAccountPers p b{
+  color: #abb663 !important;
+}
+
+.userAccount button ,.userAccountPers button {
+  background-color: #a63348;
+  color: #f6f3ee;
+  border: 1px solid #a63348;
+  border-radius: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 6px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.userAccount button:hover ,.userAccountPers button:hover {
+  background-color: #d6415d;
+  color: #f6f3ee;
+  border: 1px solid #d6415d;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonPers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.buttons-all {
+  margin-top: 15px;
+}

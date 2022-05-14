@@ -1,0 +1,11 @@
+.productArea {
+  display: table;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.pagingArea {
+  display: block;
+  text-align: right;
+  margin-right: 2%;
+}

@@ -1,0 +1,35 @@
+.categoryProduct .filter {
+  width: 20%;
+  float: right;
+  display: table;
+  padding-right: 1%;
+}
+
+.furniture {
+  width: 80%;
+  float: left;
+  display: table;
+  margin-bottom: 10%;
+}
+
+.categoryProduct {
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 1070px) {
+  .categoryProduct .filter {
+    width: 100%;
+    float: none;
+    display: table;
+    padding-right: 1%;
+  }
+  .furniture {
+    width: 100%;
+    float: none;
+  }
+}
+
+.loader {
+  font-size: 8px !important;
+  padding-bottom: 20px !important;
+}

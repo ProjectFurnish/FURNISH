@@ -1,0 +1,122 @@
+.about {
+  direction: rtl;
+  text-align: right;
+}
+
+.about h3{
+  color: #881231;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+.who-us {
+  text-align: right;
+  padding:3%;
+  padding-bottom: 0%;
+}
+.who-us p{
+  max-width: 70%;
+}
+
+.tabs-about {
+  overflow: hidden;
+  background-color: #fffbfb;
+}
+
+.clearfix-about {
+  padding: 3%;
+  padding-bottom: 0%;
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.content-about {
+  display: table;
+  width: 100%;
+  border-radius: 3px;
+  text-align: right;
+}
+
+.tabs-about button {
+  background-color: inherit;
+  color: #400414;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+  width: 100%;
+  display: inline-block;
+}
+.button-container2 {
+  display: inline-block;
+  width: 50%;
+}
+.tabs-about button:hover {
+  background-color: #eceae6;
+}
+
+.tabs-about button.active {
+  background-color: #cc7585;
+  color: #fffbfb
+}
+
+.tabcontent-about {
+  display: table;
+  border-left: none;
+  height: 100%;
+}
+
+.faq {
+  margin-bottom: 20%;
+  user-select: none;
+}
+
+.aq {
+  direction: rtl;
+  text-align: right;
+  margin-bottom: 0.5%;
+  display: block;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.623);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+
+.faq p{
+  margin: 1%;
+  max-width: 800px;
+  font-family: "Assistant";
+}
+
+.text-about{
+  max-width: 1000px;
+  
+}
+
+.q{
+  font-size: 16px;
+  color: #abb663;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.icon-v{
+  float: left;
+  margin-left: 1%;
+}
+
+.first-line{
+  margin-bottom: 0.2%;
+  padding-top: 1%;
+}
+
+.text-about p{
+  margin: 0.2%;
+}

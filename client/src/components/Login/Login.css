@@ -1,0 +1,44 @@
+.password-recovery small:hover{
+    cursor: pointer;
+
+}
+
+.recov-modal{
+    direction: rtl;
+    text-align: right;
+}
+
+.recov-title{
+    text-align: center;
+    color: #a63348;
+}
+
+.input-recov{
+    width: 80%;
+}
+
+.recov-body button{
+    background-color: #abb663;
+    color: #f6f3ee;
+    border: 1px solid #abb663;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    margin: 4px;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+.recov-body button:hover{
+    background-color: #c0cc70;
+    color: #f6f3ee;
+    border: 1px solid #c0cc70;
+}

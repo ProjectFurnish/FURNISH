@@ -1,0 +1,116 @@
+.slide {
+  padding-right: 2%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.filterB .form {
+  direction: rtl;
+  text-align: right;
+  padding: 1%;
+  margin-right: 8%;
+  min-width: 200px;
+}
+
+.filterB .filter-value {
+  margin-right: 4%;
+}
+
+.filterB label {
+  margin-top: 2%;
+  font-size: 14px;
+}
+
+.filterB .title {
+  font-size: 18px;
+  color: #a63348;
+  font-weight: bolder;
+}
+
+.filter-check-box .container-check {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  padding-right: 35px;
+  margin-bottom: 3.5%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.filter-check-box .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.filter-check-box .checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(216, 215, 215);
+}
+
+/* On mouse-over, add a grey background color */
+.filter-check-box .container-check:hover input ~ .checkmark {
+  background-color: #d2d6b88f;
+}
+
+/* When the checkbox is checked, add a blue background */
+.filter-check-box .container-check input:checked ~ .checkmark {
+  background-color: #c6cf96;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.filter-check-box .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.filter-check-box .container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.filter-check-box .container-check .checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.key-filter {
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 1070px) {
+  .filterB .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .key-filter{
+      width: 180px;
+  }
+}
+
+  

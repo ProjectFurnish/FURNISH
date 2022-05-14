@@ -1,0 +1,36 @@
+.skipNav button {
+  background-color: #b5b8a2;
+  color: #f6f3ee;
+  border: 1px solid #b5b8a2;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 4px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  margin-top: 3%;
+}
+
+.skipNav button:hover {
+  background-color: #8e917d;
+  color: #f6f3ee;
+  border: 1px solid #8e917d;
+}
+
+.skipNav {
+  display: inline-block !important;
+}
+
+.selected{
+    background-color: #abb663 !important;
+    border: 1px solid #abb663 !important;
+}
+
+.selected:hover{
+    background-color: #c0cc70 !important;
+    border: 1px solid #c0cc70 !important;
+}

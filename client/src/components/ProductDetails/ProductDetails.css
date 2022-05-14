@@ -1,0 +1,64 @@
+.PD-h2 {
+  text-align: center;
+}
+
+.ProductDetails .btn1 {
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.ProductDetails .trash-icon {
+  font-size: 35px !important;
+  text-align: left !important;
+}
+
+.ProductDetails .trash-icon-container {
+  text-align: left !important;
+  width: 50%;
+}
+
+.ProductDetails .v-icon,
+.plus-icon {
+  font-size: 35px !important;
+  padding: 5px;
+  color: #a63348;
+  cursor: pointer;
+}
+
+.ProductDetails .v-icon:hover,
+.plus-icon:hover {
+  color: #abb663;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.btn1 {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: inline-block;
+}
+
+.v-btn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.buttons2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductDetails label {
+  font-size: 14px !important;
+  color: #88213d;
+  padding: 5px !important;
+  margin-top: 13px !important;
+  font-family: "Assistant";
+}

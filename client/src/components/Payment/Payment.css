@@ -1,0 +1,92 @@
+.container1 {
+  direction: rtl;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 490px;
+  background-color: rgba(255, 255, 255, 0.623);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px;
+  padding: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.container1 h4,
+.container1 h6 {
+  text-align: center;
+}
+.header-pay{
+  text-align: center !important;
+}
+
+.pay {
+  margin-top: 20px;
+  color: #abb663;
+}
+
+.payment h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.numCredit{
+  direction: ltr;
+  text-align: right;
+}
+.change-pay {
+  font-size: 16px !important;
+}
+
+.change-pay:hover{
+  cursor: pointer;
+}
+.paypal-button {
+  text-align: center;
+}
+
+.payment .btn1 {
+  background-color: #abb663;
+  color: #f6f3ee;
+  border: 1px solid #abb663;
+  border-radius: 2px;
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 4px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+.payment .btn1:hover {
+  background-color: #c0cc70;
+  color: #f6f3ee;
+  border: 1px solid #c0cc70;
+}
+
+.or{
+    margin-top: 10px;
+}
+
+.change-pay{
+  font-size: 20px;
+}
+
+.payment label{
+  font-size: 14px !important;
+  color: #88213d;
+  padding: 5px !important;
+  margin-top: 13px !important;
+  font-family: "Assistant";
+}

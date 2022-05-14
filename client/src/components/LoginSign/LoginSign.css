@@ -1,0 +1,27 @@
+.LoginSign .btn1 {
+  background-color: #abb663;
+  color: #f6f3ee;
+  border: 1px solid #abb663;
+  border-radius: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-top: 25px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.LoginSign .btn1:hover {
+  background-color: #c0cc70;
+  color: #f6f3ee;
+  border: 1px solid #c0cc70;
+
+}

@@ -1,0 +1,209 @@
+.header {
+  padding-bottom: 0px !important;
+}
+
+.logo {
+  max-height: 90px;
+  margin-top: 30px;
+  margin-bottom: 1%;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+.logo-div {
+  background-color: #f6f3ee;
+}
+
+.user {
+  margin-bottom: 0px;
+}
+
+.userIcon {
+  font-size: 20px;
+  color: #400414;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.logoAndUser {
+  position: relative;
+  padding-bottom: 0px !important;
+}
+
+.login {
+  color: #400414;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+.signin-h6 {
+  color: #400414;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+}
+
+.login:hover {
+  color: #a63348;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-h6 {
+  color: #400414;
+  position: absolute;
+  right: 40px;
+  top: 16px !important;
+}
+
+.login-h6:hover {
+  color: #a63348;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h6 {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+.bagIcon {
+  font-size: 20px;
+  color: #400414;
+  position: absolute;
+  top: 8px;
+  right: 130px;
+}
+
+.bag {
+  padding-bottom: 0px;
+}
+
+.line {
+  border-left: 2px solid #a63348;
+  height: 18px;
+  position: absolute;
+  top: 14px;
+  right: 122px;
+  padding-bottom: 0px;
+}
+
+.my-cart {
+  position: absolute;
+  top: 16px;
+  right: 152px;
+  color: #400414;
+}
+
+.my-cart:hover {
+  color: #a63348;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #c6cf96;
+}
+
+li {
+  float: right;
+}
+
+.navlink {
+  display: block;
+  color: #400414;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none !important;
+  font-size: 18px;
+}
+.logoAndUser h6{
+  font-size: 14px !important;
+}
+.navlink:hover:not(#active) {
+  background-color: #abb663;
+  color: #400414 !important ;
+}
+
+#active {
+  color: #ede7de;
+  background-color: #c94f66;
+}
+
+.header .title {
+  text-align: right;
+  color: #a63348;
+}
+
+.popover-cart {
+  max-width: 390px !important;
+  position: absolute !important;
+  right: 50px !important;
+  top: 10px !important;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.popover-user {
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.nav-bar {
+  height: 44px;
+}
+
+a.icon {
+  display: none;
+  color: #a63348;
+  padding: 10px 12px;
+}
+
+a.icon:hover {
+  color: #e2637a !important;
+}
+
+@media screen and (max-width: 600px) {
+  .navlink {
+    display: none;
+  }
+
+  a.icon {
+    float: right;
+    display: block;
+    margin-right: 4%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .responsive {
+    position: relative;
+  }
+  .responsive .icon {
+    position: absolute;
+    left: 4%;
+    top: 0%;
+    margin-right: 0%;
+    color: #f6f3ee;
+  }
+  .responsive .navlink {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  .responsive ul {
+    padding-left: 0px;
+  }
+  .responsive li {
+    width: 100%;
+  }
+
+  .responsive a.icon:hover {
+    color: #c6cf96 !important;
+  }
+}

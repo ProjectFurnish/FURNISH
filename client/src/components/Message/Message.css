@@ -1,0 +1,13 @@
+.message-body{
+    text-align: right !important;
+}
+
+.message-modal{
+    text-align: right !important;
+}
+
+.message-title{
+    text-align: right !important;
+    margin-bottom: 8% !important;
+    color: #a63348;
+}
